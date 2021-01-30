@@ -1,0 +1,160 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: var(--fontPrimary);
+    font-weight: 400;
+}
+
+:root {
+    --fontPrimary : arial;
+    --gray : #545262;
+}
+
+/*===================================
+==========    HEADER
+=============================*/
+
+.header {
+    background-color: var(--gray);
+    display: flex;
+    justify-content: space-between;
+}
+.container-logo-page a img {
+    height: 60px;
+    padding: 5px;
+}
+.container-navbar {
+    display: flex;
+    align-items: center;
+
+}
+.container-navbar nav ul {
+    display: flex;
+}
+.container-navbar nav ul li {
+    padding: 10px 20px;
+    margin: 0 10px;
+    list-style: none;
+    border: 1px solid #545262;
+    cursor: pointer;
+}
+.container-navbar nav ul li:hover {
+ border: 1px solid white;
+}
+.container-navbar nav ul li a { 
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+}
+
+/*===================================
+==========    FORM
+=============================*/
+.container {
+    display: flex;
+}
+.form {
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container-form-table {
+margin-top: 20px;
+}
+.title-form {
+    text-align: center;
+    text-transform: uppercase;
+}
+#form {
+    padding: 5px;
+    background-color: lightgray;
+    border-left: 3px solid rgb(68, 39, 68);
+}
+input, label, select {
+    width: 100%;
+    margin: 5px 0;
+    padding: 5px;
+    text-transform: capitalize;
+}
+.required {
+    color: red;
+}
+#bottom {
+    background-color: rgb(68, 39, 68);
+    padding: 5px;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+/*===================================
+==========    TABLE
+=============================*/
+#table {
+    width: 100%;
+    background-color: lightgrey;
+    border-left: 3px solid rgb(68, 39, 68);
+}
+.table {
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.title {
+    background-color: rgb(169, 199, 199);
+}
+.ln {
+    border-bottom: 1px solid gray;
+}
+
+/*===================================
+==========    COMENT
+=============================*/
+.container-comment {
+    width: 90%;
+    margin: 20px auto;
+    background-color: lightgray;
+    padding: 5px;
+    border-left: 3px solid gray;
+}
+.title-comment {
+    text-align: center;
+}
+.title-comment span {
+    text-transform: capitalize;
+}
+.bottomSend {
+    text-transform: uppercase;
+    background-color: rgb(68, 39, 68);
+    color: white;
+    cursor: pointer;
+}
+/* ======= COMENT SEND ========*/
+.comment {
+    width: 90%;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: rgb(232, 234, 235);
+}
+.img-comment {
+    height: 100px;
+}
+.title-comment-send { 
+    font-size: 18px;
+    margin: 6px;
+    padding: 3px;
+    background-color: rgb(154, 193, 211);
+    text-transform: capitalize;
+}
+.date {
+    margin-top: 10px;
+}
+.p-comment {
+    background-color: white;
+    padding: 5px;
+}
+
+@media (max-width :1028px){
+
+}

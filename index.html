@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Print In Table</title>
+</head>
+<body>
+    <!-- HEADER -->
+    <header class="header">
+        <div class="container-logo-page">
+            <a href="#">
+                <img src="img/4d6f0b57-e7f2-4a7b-9bb1-42dd815cf3ee_200x200.png">
+            </a>
+        </div>
+        <div class="container-navbar">
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#">Opiniones</a>
+                    </li>
+                    <li>
+                        <a href="#">Redes Sociales</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!-- FORM -->
+    <div class="container">
+        <div class="container-form-table form">
+            <div class="title-form">
+                <span>Ingrese Sus Datos</span>
+            </div>
+            <form id="form">
+                    <!-- NAME -->
+                <label for="name">Name <span class="required">*</span></label>
+                <input type="text" id="name" for="name" required>
+                    <!-- EMAIL -->
+                <label for="email">Email <span class="required">*</span></label>
+                <input type="email" id="email" for="email" required>
+                    <!-- AGE -->
+                <label for="age">Age <span class="required">*</span></label>
+                <input type="number" id="age" for="age" required>
+                    <!-- COUNTRY -->
+                <label for="country">Country <span class="required">*</span></label>
+                <select id="country" for="country" required></select>
+                    <!-- DNI -->
+                <label for="dni">Dni <span class="required">*</span></label>
+                <input type="number" id="dni" for="dni" required>
+
+                <input type="submit" value="Print" id="bottom"> 
+            </form>
+        </div>
+        <!-- TABLE -->
+        <div class="container-form-table table">
+            <table id="table">
+                <tr>
+                    <th class="th title">Name</th>
+                    <th class="th title">Email</th>
+                    <th class="th title">Age</th>
+                    <th class="th title">Country</th>
+                    <th class="th title">Dni</th>
+                </tr>
+            </table>
+        </div>
+    </div>    
+    <!-- COMENT -->
+    <div class="container-comment">
+        <div class="title-comment">
+            <span>Comentarios sobre la pagina</span>
+        </div>
+        <div class="container-input comentario">
+            <form id="form-send">
+                <!-- NAME COMENT -->
+                <label for="nameComent">Your Name</label>
+                <input type="text" name="" for="nameComent" id="nameComment" required>
+                <!-- TEXT COMENT -->
+                <label for="textComent">Coment</label>
+                <input type="text" name="" id="textComment" required>
+                <!-- BOTTOM -->
+                <input type="submit" value="Send Comment" class="bottomSend">
+            </form>
+        </div>
+    </div>
+    <article id="containerComments">
+    </article>
+    
+    <script src="js/formInput.js"></script>
+    <script src="js/sendComment.js"></script>
+</body>
+</html>
