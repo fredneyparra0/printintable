@@ -39,14 +39,14 @@
     border: 1px solid #545262;
     cursor: pointer;
 }
-.container-navbar nav ul li:hover {
- border: 1px solid white;
-}
 .container-navbar nav ul li a { 
     text-transform: uppercase;
     text-decoration: none;
     color: white;
 }
+.container-navbar nav ul li:hover {
+    background-color : #3b3a44;
+} 
 
 /*===================================
 ==========    FORM
