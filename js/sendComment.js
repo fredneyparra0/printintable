@@ -1,7 +1,7 @@
 const //Variables Send Comment
-    formSend = document.getElementById('form-send');
-    nameSend = document.getElementById('nameComment');
-    textSend = document.getElementById('textComment');
+    formSend = document.getElementById('form-send'),
+    nameSend = document.getElementById('nameComment'),
+    textSend = document.getElementById('textComment'),
     containerComments = document.getElementById('containerComments');
     ;
 
@@ -45,4 +45,5 @@ formSend.addEventListener('submit',(e) => {
     commentContainer.appendChild(pText);
 
     containerComments.appendChild(commentContainer);
+
   });
